@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Div principal de encabezado con imagen de fondo */
+.card {
+  background-image: linear-gradient(rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2)), url("XXXXX77777.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+  padding: 16px;
+  border-radius: 7px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  text-align: center;
+  margin: 15px auto;
+}
+
+p {
+  font-size: 1.2rem;
+  color: yellow;
+  text-align: center;
+  margin: 12px auto;
+}
+
+button {
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  margin: 24px auto;
+  cursor: pointer;
+  display: block;
+}
+
+a {
+  color: #00d2ff;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 12px auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border-radius: 7px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: blue;
+  margin: 14px auto;
+  text-align: center;
+}
+
+/* Estilos de la barra de búsqueda */
+.fondo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 60px;
+  background-color: #EEEEEE;
+  border-radius: 7px;
+  padding: 12px 22px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+}
+
+.fondo:hover {
+  max-width: 600px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  color: #6528F7;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+i {
+  font-size: 23px;
+  color: #6528F7;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  border-top: 1px solid white;
+}
